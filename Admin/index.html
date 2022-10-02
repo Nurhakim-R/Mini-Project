@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Admin Dashboard</title>
+</head>
+<body>
+
+    <input type="checkbox" id="nav-toggle">
+    <!--Sidebar-->
+    <div class="sidebar">
+        <div class="sidebar-merk">
+            <h1><span class="lab la-cuttlefish"></span> <span>Arisan</span></h1>
+        </div>
+
+        <div class="sidebar-menu">
+            <ul>
+                <li>
+                    <a href="" class="active"><span class="las la-igloo"></span>
+                       <span>Dashboard</span></a>
+                </li>
+                <li>
+                    <a href=""><span class="las la-users"></span>
+                        <span>Peserta</span></a>
+                </li>
+                <li>
+                    <a href=""><span class="las la-calendar-alt"></span>
+                        <span>Jadwal</span></a>
+                </li>
+                <li>
+                    <a href=""><span class="las la-receipt"></span>
+                        <span>Total</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!--Main-->
+    <div class="main-content">
+        <header>
+            <h2>
+                <label for="nav-toggle">
+                    <span class="las la-bars"></span>
+                </label>
+                Dashboard
+            </h2>    
+
+            <div class="search-wrapper">
+                <span class="las la-search"></span>
+                <input type="search" placeholder="Cari Disini">
+            </div>
+
+            <div class="user-wrapper">
+                <img src="/Images/pp.png" alt="Blank Profile Picture" width="40px" height="40px">
+                <div>
+                    <h4>Agus Alexander</h4>
+                    <small>Admin</small>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="cards">
+
+                <div class="card-single">
+                    <div>
+                        <h1>1</h1>
+                        <span>Peserta</span>
+                    </div>
+                    <div>
+                        <span class="las la-users"></span>
+                    </div>
+                </div>
+
+                <div class="card-single">
+                    <div>
+                        <h1>Rp 4.000,00</h1>
+                        <span>Total</span>
+                    </div>
+                    <div>
+                        <span class="las la-dollar-sign"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recent-grid">
+                <div class="pemasukan">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Pemasukan Baru-baru ini</h3>
+                            <button>Lihat semua <span class="las la-arrow-right"></span></button>
+                        </div>
+
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table width="100%">
+                                    <thead>
+                                          <tr>
+                                              <td>Nama Peserta</td>
+                                              <td>Alamat</td>
+                                              <td>Nomor Hp</td>
+                                              <td>Status Pembayaran</td>
+                                              <td>
+                                                  <span class="status"></span>
+                                                  Review
+                                              </td>
+                                          </tr>
+                                      </thead>
+                                      <tbody>
+                                          <tr>
+                                              <td>Ucup</td>
+                                              <td>Jln. Jalan</td>
+                                              <td>089765</td>
+                                              <td>Lunas</td>
+                                              <td>
+                                                <span class="status green"></span>
+                                                Approved
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td>Ucup</td>
+                                            <td>Jln. Jalan</td>
+                                            <td>089765</td>
+                                            <td>Lunas</td>
+                                            <td>
+                                              <span class="status orange"></span>
+                                              Pending
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ucup</td>
+                                            <td>Jln. Jalan</td>
+                                            <td>089765</td>
+                                            <td>Lunas</td>
+                                            <td>
+                                              <span class="status red"></span>
+                                              Failed
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                  </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Peserta-->
+                <div class="pesertas">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Peserta Baru</h3>
+                            <button>Lihat semua <span class="las la-arrow-right"></span></button>
+                        </div>
+
+                        <div class="card-body">
+                            <div class="peserta">
+                                <div class="info">
+                                    <img src="/Images/pp.png" width="40px" height="40px" alt="">
+                                    <div>
+                                        <h4>M.samsudin</h4>
+                                        <small>Guru</small>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <span class="las la-user-circle"></span>
+                                    <span class="las la-comment"></span>
+                                    <span class="las la-phone"></span>
+                                </div>
+                            </div>
+
+                            <div class="peserta">
+                                <div class="info">
+                                    <img src="/Images/pp.png" width="40px" height="40px" alt="">
+                                    <div>
+                                        <h4>M.samsudin</h4>
+                                        <small>Guru</small>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <span class="las la-user-circle"></span>
+                                    <span class="las la-comment"></span>
+                                    <span class="las la-phone"></span>
+                                </div>
+                            </div>
+
+                            <div class="peserta">
+                                <div class="info">
+                                    <img src="/Images/pp.png" width="40px" height="40px" alt="">
+                                    <div>
+                                        <h4>M.samsudin</h4>
+                                        <small>Guru</small>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <span class="las la-user-circle"></span>
+                                    <span class="las la-comment"></span>
+                                    <span class="las la-phone"></span>
+                                </div>
+                            </div>
+
+                            <div class="peserta">
+                                <div class="info">
+                                    <img src="/Images/pp.png" width="40px" height="40px" alt="">
+                                    <div>
+                                        <h4>M.samsudin</h4>
+                                        <small>Guru</small>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <span class="las la-user-circle"></span>
+                                    <span class="las la-comment"></span>
+                                    <span class="las la-phone"></span>
+                                </div>
+                            </div>
+
+                            <div class="peserta">
+                                <div class="info">
+                                    <img src="/Images/pp.png" width="40px" height="40px" alt="">
+                                    <div>
+                                        <h4>M.samsudin</h4>
+                                        <small>Guru</small>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <span class="las la-user-circle"></span>
+                                    <span class="las la-comment"></span>
+                                    <span class="las la-phone"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+</body>
+</html>
